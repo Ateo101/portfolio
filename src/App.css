@@ -50,10 +50,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 @media screen and (max-width: 600px) {
   .container {
-    max-width: 370px;
+    max-width: 330px;
   }
   .portfolio .portfolio_list ul li .inner{
-    width: 80%;
+    width: 80%!important;
   }
 }
 .bio-container{
@@ -76,9 +76,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   display: inline-block;
 }
 .topbar .menu ul li:last-child {
-   margin: 0;
-   display: inline-block;
- }
+  margin: 0;
+  display: inline-block;
+}
 .topbar .menu ul li a {
   text-decoration: none;
   color: #fff;
@@ -245,8 +245,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 451px;
-  min-width: 150px;
+  height: 335px;
+  min-width: 125px;
 }
 .about .left .about_image_wrap img {
   opacity: 0;
@@ -254,20 +254,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .about .left .about_image_wrap .border-layer .inner {
   position: absolute;
-  top: 25px!important;
+  top: 11px!important;
   bottom: -25px!important;
-  left: 25px!important;
+  left: 11px!important;
   right: -25px!important;
-  border: 10px
-  solid #000;
-  height: 431px;
+  border: 10px solid #000;
+  /* height: 431
+px
+; */
   z-index: -1;
   min-width: 125px;
+  min-height: 330px;
+  min-width: 115px;
 }
 .about .right {
-  width: 60%;
+  width: 45%;
   height: auto;
-  padding-left: 75px;
+  padding-left: 55px;
 }
 .about .right .about_title {
   margin-bottom: 30px;
@@ -292,7 +295,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   clear: both;
   float: left;
   margin-bottom: 24px;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 .about .about_short_contact_wrap ul {
   margin: 0px;
@@ -322,10 +325,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: #fff;
   background-color: #e65f78;
   display: inline-block;
-  padding: 12px 45px;
+  padding: 18px 35px;
   font-weight: 700;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 div.btn {
   width: 100%;
@@ -432,8 +436,8 @@ button.send {
   opacity: 0;
 }
 .container .lets_work p {
-   font-size: 18px;
- }
+  font-size: 18px;
+}
 .container .lets_work a {
   text-decoration: none;
   color: #000;
@@ -522,7 +526,7 @@ a.zoom img {
 .entry {
   position: relative;
   height: 250px;
-  width: 350px;
+  width: 325px;
   margin: 10px;
 }
 #portfolio{

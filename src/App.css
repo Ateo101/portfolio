@@ -47,6 +47,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .container {
     max-width: 550px;
   }
+  @counter-style space-counter {
+    additive-symbols:📲 5,🖅 4,🏠 3,🚀 2,🥳 1;
+  }
 }
 @media screen and (max-width: 600px) {
   .container {

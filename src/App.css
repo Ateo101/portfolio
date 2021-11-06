@@ -47,9 +47,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .container {
     max-width: 550px;
   }
-  @counter-style space-counter {
-    symbols: "🥳" "🚀" "🏠" "🖅" "📲";
-  }
 }
 @media screen and (max-width: 600px) {
   .container {
@@ -302,7 +299,7 @@ px
 }
 .about .about_short_contact_wrap ul {
   margin: 0px;
-  list-style-type: space-counter;
+  list-style: space-counter;
 }
 .about .about_short_contact_wrap ul li {
   margin: 0px 0px 10px 0px;
@@ -312,8 +309,10 @@ px
   padding-left: 5px;
 }
 @counter-style space-counter {
-  system: fixed;
-  symbols: "\1F973" "\1F680" "\1F3E0" "\1F585" "\1F4F2";
+  /*system: fixed;
+  symbols: "\1F973" "\1F680" "\1F3E0" "\1F585" "\1F4F2";*/
+  system: additive;
+  additive-symbols: "\1F4F2" 5, "\1F585" 4,"\1F3E0" 3,"\1F680" 2,"\1F973" 1;
   suffix: "";
 }
 .button {
